@@ -1,0 +1,117 @@
+.mywork{
+    align-items: center;
+    background-color:rgb(72, 180, 196) ;
+    margin-top: -1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(239, 239, 239);
+    
+}
+.mywork__heading{
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2em;
+}
+.mywork__image{
+    height: 100%;
+    width: 100%;
+    margin-top: 2rem;
+
+}
+.mywork__subhead{
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5em;
+}
+.mywork__text{
+    font-weight: 300;
+    margin-bottom: 1rem;
+    
+    font-size: 1em;
+}
+.mywork__btn{
+    color: rgb(239, 239, 239);
+    letter-spacing: 0.05em;
+    font-weight: 300;
+
+}
+.containe{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 0.5rem;
+    padding-right:0.5rem ; */
+    /* border: 1px solid red;*/
+} 
+
+
+
+
+
+
+/* @media (min-width: 475px){
+    .container{
+     max-width: 475px;
+    }
+ }
+ @media (min-width: 640px){
+     .container{
+      max-width: 640px;
+     }
+  } */
+@media (min-width: 768px){
+     .container{
+      max-width: 768px;
+     }
+     .mywork__image{
+        height: 90%;
+        width: 90%;
+        
+        margin-top: 2rem;
+        /* padding-left: 2rem;
+      padding-right: 2rem;
+     */
+    }
+    .mywork__subhead{
+        display: none;
+    }
+    .mywork__text{
+        display: none;
+    }
+    .mywork__btn{
+        
+        display: none;
+    
+    }
+    .containe{
+        display: flex;
+        justify-content:center;
+       
+        /* padding-left: 0.5rem;
+        padding-right:0.5rem ; */
+        /* border: 1px solid red; */
+    }
+}
+  /* @media (min-width: 1024px){
+     .container{
+      max-width: 1024px;
+     }
+  }
+  @media (min-width: 1280px){
+     .container{
+      max-width: 1280px;
+     }
+     .section{
+         margin-top: 10rem;
+         }
+  }
+  @media (min-width: 1536px){
+     .container{
+      max-width: 1536px;
+     }
+  } */

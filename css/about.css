@@ -1,0 +1,103 @@
+.about{
+    background-color: rgb(72, 180, 196);
+    margin: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    color: rgb(239, 239, 239);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    box-shadow: 0 0 20px rgb(72, 180, 196),0 0 40px rgba(68, 168, 199, 0.958),0 0 60px rgba(160, 214, 209, 0.932),0 0 80px rgba(20, 195, 178, 0.203);
+
+}
+.about__image{
+    display: none;
+}
+
+.about__heading{
+    font-size: 2em;
+    padding-bottom: 1.5rem;
+    font-weight: 300;
+    
+
+}
+.about__headin{
+    font-weight: 300;
+    margin-top: 4rem;
+    text-align: center;
+
+}
+.work{
+    z-index: -1;
+}
+.work:hover{
+    transform: translate(-3px);
+    /* background-image: url(../assets/Comminuty.png);
+    height: auto;
+    width: fit-content; */
+}
+
+/* @media (min-width: 475px){
+    .container{
+     max-width: 475px;
+    }
+ }
+ @media (min-width: 640px){
+     .container{
+      max-width: 640px;
+     }
+  } */
+  @media (min-width: 768px){
+     .container{
+      max-width: 768px;
+     }
+     .about{
+        background-color: rgb(72, 180, 196);
+       margin-top: -5.5rem;
+        padding-left: 6rem;
+        padding-right: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        color: rgb(239, 239, 239);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        box-shadow: 0 0 20px rgb(72, 180, 196),0 0 40px rgba(68, 168, 199, 0.958),0 0 60px rgba(160, 214, 209, 0.932),0 0 80px rgba(20, 195, 178, 0.203);
+    
+    }
+    .about__content{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+    .about__image{
+        display: block;
+        width: 40%;
+        padding-right: 3rem;
+        
+    }
+    
+    .about__heading{
+        font-size: 2em;
+        padding-bottom: 1.5rem;
+    
+    }
+  }
+  /* @media (min-width: 1024px){
+     .container{
+      max-width: 1024px;
+     }
+  }
+  @media (min-width: 1280px){
+     .container{
+      max-width: 1280px;
+     }
+     .section{
+         margin-top: 10rem;
+         }
+  }
+  @media (min-width: 1536px){
+     .container{
+      max-width: 1536px;
+     }
+  } */
